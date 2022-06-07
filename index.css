@@ -1,0 +1,105 @@
+
+body{
+    background-image: url("background_photos/intro_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Main{
+    margin-top: 10vh;
+    text-align : center;
+    height: 50vw;
+    height: 80vh;
+
+}
+
+#text1{
+    font-size: calc( (1.5vh + 1vw) / 2  * 3) ;
+    background-color: #0000009a;
+    color: #ffffff;
+    border-radius: 8px;
+    display:inline-block;
+    margin-bottom: -1vh;
+  }
+  
+ #text2{
+    font-size: calc( calc( (1.5vh + 1vw) / 2  * 2));
+    background-color: #0000009a;
+    color: #ffffff;
+    border-radius: 8px;
+    display:inline-block;
+  }
+
+#contacto{
+    width: 100vw;
+    max-height: 10vh;
+    background-color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    text-size-adjust: 1px;
+    display:inline-block;
+    bottom: 0;
+    left: 0%;
+    font-size: 2vh;
+}
+
+button{
+    width: 75vw;
+    height: 25vh;
+    margin-top: 1vh;
+    border-radius: 8px;
+    background: white;
+
+}
+
+button:hover {
+    background-color: #41a17e;
+    color: white;
+}
+
+
+input{
+    text-align : center;
+    height: 5vh;
+    width: 50vw;
+}
+
+
+
+#cookies_div{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(36, 36, 36, 0.9);
+    z-index: 10;
+}
+
+#cookie_mesage{
+    
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align : center;
+    margin:auto;
+    margin-top: 25vh;
+    display:inline-block;
+}
+
+#cookie_acept{
+    width: 25vw;
+    height: 5vh;
+    margin-top: 1vh;
+    background: white;
+}
+
+#cookie_acept:hover{
+    background-color: #232323;
+    color: white;
+}
+
+.contact_text{
+    margin-left: 1vw;
+  }
