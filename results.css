@@ -32,7 +32,7 @@ body{
 
 img{
     border-radius: 8px;
-    width: calc( (1.5vh + 1vw) / 2  * 30);
+    width: calc( (1.5vh + 1vw) / 2  * 35);
     margin-left: 2vw;
     margin-right: 2vw;
 }
